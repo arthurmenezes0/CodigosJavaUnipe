@@ -4,9 +4,11 @@ import java.util.Scanner;
 
 public class Cerveja {
 	public static void main(String[] args) {
+		
 		Scanner leitor = new Scanner(System.in);
 		System.out.println("Digite quantas cervejas tem na freezer: ");
 		int cerveja = leitor.nextInt();
+		
 		while (cerveja > 0) {
 			System.out.println(cerveja + " cervejas na freezer.");
 			System.out.println("Pego uma cerveja e passo para frente");
