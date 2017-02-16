@@ -1,4 +1,4 @@
-package br.unipe.java.unidade1;
+
 
 import java.util.Scanner;
 
@@ -6,15 +6,15 @@ public class Cerveja {
 	public static void main(String[] args) {
 		Scanner leitor = new Scanner(System.in);
 		System.out.println("Digite quantas cervejas tem na freezer: ");
-		int cerva = leitor.nextInt();
-		while (cerva > 0) {
-			System.out.println(cerva + " cervejas na freezer.");
+		int cerveja = leitor.nextInt();
+		while (cerveja > 0) {
+			System.out.println(cerveja + " cervejas na freezer.");
 			System.out.println("Pego uma cerveja e passo para frente");
-			cerva = cerva - 1;
-			System.out.println("Agora s„o " + cerva + " cervejas");
+			cerveja = cerveja - 1;
+			System.out.println("Agora s√£o " + cerveja + " cervejas");
 		}
-		if (cerva == 0) {
-			System.out.println("A cerveja acabou, v· comprar mais!");
+		if (cerveja == 0) {
+			System.out.println("A cerveja acabou, v√° comprar mais!");
 			leitor.close();
 		}
 	}
