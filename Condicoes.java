@@ -1,4 +1,3 @@
-package br.unipe.java.unidade1;
 
 import java.util.Scanner;
 
@@ -8,13 +7,15 @@ public class Condicoes {
 		Scanner leitor = new Scanner(System.in);
 		System.out.println("Informe um numero para ser testado");
 		int z = leitor.nextInt();
+		
 		if (z == 10) {
 			System.out.println("z e igual a 10 :)");
-		} else {
+		}
+		
+		else {
 			System.out.println("z nao e igual a 10");
 		}
-		System.out.println("e isso é enrolação");
-		leitor.close();
-		
+		System.out.println("e isso Ã© enrolaÃ§Ã£o");
+		leitor.close();	
 	}
 }
