@@ -6,7 +6,6 @@ public class Soma {
 	public static void main(String[] args) {
   
 		int x, y;
-
 		Scanner leitor = new Scanner(System.in);
 
 		System.out.println("Digite o primeiro número : ");
